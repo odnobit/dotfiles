@@ -3,9 +3,11 @@ theme = Catppuccin Mocha
 window-theme = dark
 
 # ── Font ────────────────────────────────────────
-font-family = JetBrainsMono Nerd Font Mono
-font-size = 15
+font-family = JetBrainsMonoNL NFM
+font-size = 14
+adjust-cell-height = 8%
 font-thicken = false
+font-feature = +calt
 
 # ── Window ──────────────────────────────────────
 macos-titlebar-style = transparent
