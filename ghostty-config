@@ -1,0 +1,32 @@
+# ── Theme ───────────────────────────────────────
+theme = Catppuccin Mocha
+window-theme = dark
+
+# ── Font ────────────────────────────────────────
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 15
+font-thicken = false
+
+# ── Window ──────────────────────────────────────
+macos-titlebar-style = transparent
+window-padding-x = 12
+window-padding-y = 10
+window-padding-balance = true
+background-opacity = 1
+
+window-save-state = always
+window-inherit-working-directory = true
+confirm-close-surface = false
+resize-overlay = never
+
+# ── Cursor ──────────────────────────────────────
+cursor-style = block
+cursor-style-blink = false
+
+# ── Mouse & clipboard ───────────────────────────
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# ── Shell & tmux ────────────────────────────────
+command = /bin/zsh -c 'tmux a || tmux'
+shell-integration = zsh
